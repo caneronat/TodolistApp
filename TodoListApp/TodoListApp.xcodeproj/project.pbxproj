@@ -9,25 +9,41 @@
 /* Begin PBXBuildFile section */
 		379859C119C69583EA062E52 /* Pods_TodoListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ECF6A08AFFB5DE6B2629DB /* Pods_TodoListApp.framework */; };
 		69B788F327425959009D6E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B788F227425959009D6E38 /* AppDelegate.swift */; };
-		69B788F527425959009D6E38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B788F427425959009D6E38 /* SceneDelegate.swift */; };
-		69B788F727425959009D6E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B788F627425959009D6E38 /* ViewController.swift */; };
 		69B788FA27425959009D6E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B788F827425959009D6E38 /* Main.storyboard */; };
 		69B788FC2742595B009D6E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B788FB2742595B009D6E38 /* Assets.xcassets */; };
 		69B788FF2742595B009D6E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B788FD2742595B009D6E38 /* LaunchScreen.storyboard */; };
 		69B7890827426628009D6E38 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7890727426628009D6E38 /* Realm */; };
 		69B7890A27426628009D6E38 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7890927426628009D6E38 /* RealmSwift */; };
+		69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891527426AD2009D6E38 /* SplashViewController.swift */; };
+		69B7891827426AE0009D6E38 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891727426AE0009D6E38 /* SplashPresenter.swift */; };
+		69B7891A27426AEF009D6E38 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891927426AEF009D6E38 /* SplashInteractor.swift */; };
+		69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891B27426AFC009D6E38 /* SplashEntities.swift */; };
+		69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891D27426B07009D6E38 /* SplashRouter.swift */; };
+		69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891F27426BCB009D6E38 /* BaseRouter.swift */; };
+		69B7892227426BD7009D6E38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892127426BD7009D6E38 /* BasePresenter.swift */; };
+		69B7892427426BE2009D6E38 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892327426BE2009D6E38 /* BaseView.swift */; };
+		69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892527426BFF009D6E38 /* BaseInteractor.swift */; };
+		69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892727426C48009D6E38 /* InteractorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3294AE835907C30F69B17B2B /* Pods-TodoListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoListApp.release.xcconfig"; path = "Target Support Files/Pods-TodoListApp/Pods-TodoListApp.release.xcconfig"; sourceTree = "<group>"; };
 		69B788EF27425959009D6E38 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B788F227425959009D6E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69B788F427425959009D6E38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69B788F627425959009D6E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69B788F927425959009D6E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69B788FB2742595B009D6E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B788FE2742595B009D6E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B789002742595C009D6E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B7891527426AD2009D6E38 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		69B7891727426AE0009D6E38 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		69B7891927426AEF009D6E38 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		69B7891B27426AFC009D6E38 /* SplashEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntities.swift; sourceTree = "<group>"; };
+		69B7891D27426B07009D6E38 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		69B7891F27426BCB009D6E38 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		69B7892127426BD7009D6E38 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		69B7892327426BE2009D6E38 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		69B7892527426BFF009D6E38 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		69B7892727426C48009D6E38 /* InteractorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorHelper.swift; sourceTree = "<group>"; };
 		AD464350F57D6AA221563DC7 /* Pods-TodoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoListApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoListApp/Pods-TodoListApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B5ECF6A08AFFB5DE6B2629DB /* Pods_TodoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,14 +84,102 @@
 			isa = PBXGroup;
 			children = (
 				69B788F227425959009D6E38 /* AppDelegate.swift */,
-				69B788F427425959009D6E38 /* SceneDelegate.swift */,
-				69B788F627425959009D6E38 /* ViewController.swift */,
-				69B788F827425959009D6E38 /* Main.storyboard */,
-				69B788FB2742595B009D6E38 /* Assets.xcassets */,
-				69B788FD2742595B009D6E38 /* LaunchScreen.storyboard */,
+				69B7891327426A37009D6E38 /* Entities */,
+				69B7891227426A2B009D6E38 /* Enums */,
+				69B7891127426A1E009D6E38 /* Helpers */,
+				69B7891027426A14009D6E38 /* CustomViews */,
+				69B7890F27426A0C009D6E38 /* Protocols */,
+				69B7890E274269FE009D6E38 /* TableViewSources */,
+				69B7890D274269F7009D6E38 /* TableViewCells */,
+				69B7890C274269F2009D6E38 /* Screens */,
+				69B7890B274269DF009D6E38 /* Resources */,
 				69B789002742595C009D6E38 /* Info.plist */,
 			);
 			path = TodoListApp;
+			sourceTree = "<group>";
+		};
+		69B7890B274269DF009D6E38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69B788F827425959009D6E38 /* Main.storyboard */,
+				69B788FB2742595B009D6E38 /* Assets.xcassets */,
+				69B788FD2742595B009D6E38 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69B7890C274269F2009D6E38 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				69B7891427426AB9009D6E38 /* Splash */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		69B7890D274269F7009D6E38 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		69B7890E274269FE009D6E38 /* TableViewSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewSources;
+			sourceTree = "<group>";
+		};
+		69B7890F27426A0C009D6E38 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				69B7891F27426BCB009D6E38 /* BaseRouter.swift */,
+				69B7892127426BD7009D6E38 /* BasePresenter.swift */,
+				69B7892327426BE2009D6E38 /* BaseView.swift */,
+				69B7892527426BFF009D6E38 /* BaseInteractor.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		69B7891027426A14009D6E38 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		69B7891127426A1E009D6E38 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69B7892727426C48009D6E38 /* InteractorHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		69B7891227426A2B009D6E38 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		69B7891327426A37009D6E38 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		69B7891427426AB9009D6E38 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				69B7891527426AD2009D6E38 /* SplashViewController.swift */,
+				69B7891727426AE0009D6E38 /* SplashPresenter.swift */,
+				69B7891927426AEF009D6E38 /* SplashInteractor.swift */,
+				69B7891B27426AFC009D6E38 /* SplashEntities.swift */,
+				69B7891D27426B07009D6E38 /* SplashRouter.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		88F0894378B22B7EB58254A4 /* Frameworks */ = {
@@ -217,9 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B788F727425959009D6E38 /* ViewController.swift in Sources */,
 				69B788F327425959009D6E38 /* AppDelegate.swift in Sources */,
-				69B788F527425959009D6E38 /* SceneDelegate.swift in Sources */,
+				69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */,
+				69B7892227426BD7009D6E38 /* BasePresenter.swift in Sources */,
+				69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */,
+				69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */,
+				69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */,
+				69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */,
+				69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */,
+				69B7892427426BE2009D6E38 /* BaseView.swift in Sources */,
+				69B7891827426AE0009D6E38 /* SplashPresenter.swift in Sources */,
+				69B7891A27426AEF009D6E38 /* SplashInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
