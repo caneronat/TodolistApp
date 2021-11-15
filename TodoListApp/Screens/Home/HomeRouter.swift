@@ -49,7 +49,7 @@ class HomeRouterOutput: BaseRouter {
     }
     
     func presentDetail(object: TaskList){
-//        DetailRouterInput().present(from: view, entryEntity: DetailEntryEntity(object: object))
+       DetailRouterInput().present(from: view, entryEntity: DetailEntryEntity(object: object))
     }
     
     func presentAddTask(){
