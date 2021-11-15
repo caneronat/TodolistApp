@@ -53,16 +53,16 @@
                     <rect key="frame" x="0.0" y="418" width="414" height="60"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upcoming To-do's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXt-JB-Y0q">
-                            <rect key="frame" x="5" y="19.5" width="334" height="21"/>
+                            <rect key="frame" x="5" y="19.5" width="359" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_add_note" translatesAutoresizingMaskIntoConstraints="NO" id="onr-rS-tUt">
-                            <rect key="frame" x="344" y="-2.5" width="65" height="65"/>
+                            <rect key="frame" x="369" y="10" width="40" height="40"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="65" id="NPM-1S-nKE"/>
-                                <constraint firstAttribute="height" constant="65" id="TpZ-ob-6KG"/>
+                                <constraint firstAttribute="width" constant="40" id="NPM-1S-nKE"/>
+                                <constraint firstAttribute="height" constant="40" id="TpZ-ob-6KG"/>
                             </constraints>
                         </imageView>
                     </subviews>
