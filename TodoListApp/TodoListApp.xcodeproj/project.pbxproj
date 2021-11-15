@@ -14,6 +14,16 @@
 		69B788FF2742595B009D6E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B788FD2742595B009D6E38 /* LaunchScreen.storyboard */; };
 		69B7890827426628009D6E38 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7890727426628009D6E38 /* Realm */; };
 		69B7890A27426628009D6E38 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7890927426628009D6E38 /* RealmSwift */; };
+		69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891527426AD2009D6E38 /* SplashViewController.swift */; };
+		69B7891827426AE0009D6E38 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891727426AE0009D6E38 /* SplashPresenter.swift */; };
+		69B7891A27426AEF009D6E38 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891927426AEF009D6E38 /* SplashInteractor.swift */; };
+		69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891B27426AFC009D6E38 /* SplashEntities.swift */; };
+		69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891D27426B07009D6E38 /* SplashRouter.swift */; };
+		69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7891F27426BCB009D6E38 /* BaseRouter.swift */; };
+		69B7892227426BD7009D6E38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892127426BD7009D6E38 /* BasePresenter.swift */; };
+		69B7892427426BE2009D6E38 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892327426BE2009D6E38 /* BaseView.swift */; };
+		69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892527426BFF009D6E38 /* BaseInteractor.swift */; };
+		69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892727426C48009D6E38 /* InteractorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		69B788FB2742595B009D6E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B788FE2742595B009D6E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B789002742595C009D6E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B7891527426AD2009D6E38 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		69B7891727426AE0009D6E38 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		69B7891927426AEF009D6E38 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		69B7891B27426AFC009D6E38 /* SplashEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntities.swift; sourceTree = "<group>"; };
+		69B7891D27426B07009D6E38 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		69B7891F27426BCB009D6E38 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		69B7892127426BD7009D6E38 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		69B7892327426BE2009D6E38 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		69B7892527426BFF009D6E38 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		69B7892727426C48009D6E38 /* InteractorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorHelper.swift; sourceTree = "<group>"; };
 		AD464350F57D6AA221563DC7 /* Pods-TodoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoListApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoListApp/Pods-TodoListApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B5ECF6A08AFFB5DE6B2629DB /* Pods_TodoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +111,7 @@
 		69B7890C274269F2009D6E38 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				69B7891427426AB9009D6E38 /* Splash */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -112,6 +133,10 @@
 		69B7890F27426A0C009D6E38 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				69B7891F27426BCB009D6E38 /* BaseRouter.swift */,
+				69B7892127426BD7009D6E38 /* BasePresenter.swift */,
+				69B7892327426BE2009D6E38 /* BaseView.swift */,
+				69B7892527426BFF009D6E38 /* BaseInteractor.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -126,6 +151,7 @@
 		69B7891127426A1E009D6E38 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				69B7892727426C48009D6E38 /* InteractorHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -142,6 +168,18 @@
 			children = (
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		69B7891427426AB9009D6E38 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				69B7891527426AD2009D6E38 /* SplashViewController.swift */,
+				69B7891727426AE0009D6E38 /* SplashPresenter.swift */,
+				69B7891927426AEF009D6E38 /* SplashInteractor.swift */,
+				69B7891B27426AFC009D6E38 /* SplashEntities.swift */,
+				69B7891D27426B07009D6E38 /* SplashRouter.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		88F0894378B22B7EB58254A4 /* Frameworks */ = {
@@ -284,6 +322,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B788F327425959009D6E38 /* AppDelegate.swift in Sources */,
+				69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */,
+				69B7892227426BD7009D6E38 /* BasePresenter.swift in Sources */,
+				69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */,
+				69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */,
+				69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */,
+				69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */,
+				69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */,
+				69B7892427426BE2009D6E38 /* BaseView.swift in Sources */,
+				69B7891827426AE0009D6E38 /* SplashPresenter.swift in Sources */,
+				69B7891A27426AEF009D6E38 /* SplashInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
