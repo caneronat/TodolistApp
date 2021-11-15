@@ -24,6 +24,20 @@
 		69B7892427426BE2009D6E38 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892327426BE2009D6E38 /* BaseView.swift */; };
 		69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892527426BFF009D6E38 /* BaseInteractor.swift */; };
 		69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892727426C48009D6E38 /* InteractorHelper.swift */; };
+		69B7893027427027009D6E38 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7892F27427027009D6E38 /* HomePresenter.swift */; };
+		69B7893227427032009D6E38 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893127427032009D6E38 /* HomeInteractor.swift */; };
+		69B7893427427040009D6E38 /* HomeEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893327427040009D6E38 /* HomeEntities.swift */; };
+		69B789362742704E009D6E38 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B789352742704E009D6E38 /* HomeRouter.swift */; };
+		69B7893927427066009D6E38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893727427066009D6E38 /* HomeViewController.swift */; };
+		69B7893A27427066009D6E38 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B7893827427066009D6E38 /* HomeViewController.xib */; };
+		69B7893C274272E3009D6E38 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893B274272E2009D6E38 /* TaskList.swift */; };
+		69B7893E274272F4009D6E38 /* NavigationTitleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893D274272F4009D6E38 /* NavigationTitleTypes.swift */; };
+		69B7894027427305009D6E38 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7893F27427305009D6E38 /* RealmHelper.swift */; };
+		69B78942274277A8009D6E38 /* HomeTableViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B78941274277A7009D6E38 /* HomeTableViewSource.swift */; };
+		69B78945274277C2009D6E38 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B78943274277C2009D6E38 /* HomeTableViewCell.swift */; };
+		69B78946274277C2009D6E38 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B78944274277C2009D6E38 /* HomeTableViewCell.xib */; };
+		69B7894A27427959009D6E38 /* CustomNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7894827427959009D6E38 /* CustomNavigationTitleView.swift */; };
+		69B7894B27427959009D6E38 /* CustomNavigationTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B7894927427959009D6E38 /* CustomNavigationTitleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +58,20 @@
 		69B7892327426BE2009D6E38 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		69B7892527426BFF009D6E38 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 		69B7892727426C48009D6E38 /* InteractorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorHelper.swift; sourceTree = "<group>"; };
+		69B7892F27427027009D6E38 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		69B7893127427032009D6E38 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		69B7893327427040009D6E38 /* HomeEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntities.swift; sourceTree = "<group>"; };
+		69B789352742704E009D6E38 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		69B7893727427066009D6E38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69B7893827427066009D6E38 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		69B7893B274272E2009D6E38 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskList.swift; path = TodoListApp/Screens/Home/TaskList.swift; sourceTree = SOURCE_ROOT; };
+		69B7893D274272F4009D6E38 /* NavigationTitleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationTitleTypes.swift; path = TodoListApp/Screens/Home/NavigationTitleTypes.swift; sourceTree = SOURCE_ROOT; };
+		69B7893F27427305009D6E38 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		69B78941274277A7009D6E38 /* HomeTableViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTableViewSource.swift; path = TodoListApp/Helpers/HomeTableViewSource.swift; sourceTree = SOURCE_ROOT; };
+		69B78943274277C2009D6E38 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTableViewCell.swift; path = TodoListApp/TableViewCells/Controllers/HomeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		69B78944274277C2009D6E38 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeTableViewCell.xib; path = TodoListApp/Helpers/HomeTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		69B7894827427959009D6E38 /* CustomNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomNavigationTitleView.swift; path = TodoListApp/Helpers/CustomNavigationTitleView.swift; sourceTree = SOURCE_ROOT; };
+		69B7894927427959009D6E38 /* CustomNavigationTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomNavigationTitleView.xib; path = TodoListApp/Helpers/CustomNavigationTitleView.xib; sourceTree = SOURCE_ROOT; };
 		AD464350F57D6AA221563DC7 /* Pods-TodoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoListApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoListApp/Pods-TodoListApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B5ECF6A08AFFB5DE6B2629DB /* Pods_TodoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,6 +139,7 @@
 		69B7890C274269F2009D6E38 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				69B7892C27426FFE009D6E38 /* Home */,
 				69B7891427426AB9009D6E38 /* Splash */,
 			);
 			path = Screens;
@@ -119,6 +148,8 @@
 		69B7890D274269F7009D6E38 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				69B78947274277D1009D6E38 /* Controllers */,
+				69B78944274277C2009D6E38 /* HomeTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -126,6 +157,7 @@
 		69B7890E274269FE009D6E38 /* TableViewSources */ = {
 			isa = PBXGroup;
 			children = (
+				69B78941274277A7009D6E38 /* HomeTableViewSource.swift */,
 			);
 			path = TableViewSources;
 			sourceTree = "<group>";
@@ -144,6 +176,8 @@
 		69B7891027426A14009D6E38 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				69B7894827427959009D6E38 /* CustomNavigationTitleView.swift */,
+				69B7894927427959009D6E38 /* CustomNavigationTitleView.xib */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -152,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				69B7892727426C48009D6E38 /* InteractorHelper.swift */,
+				69B7893F27427305009D6E38 /* RealmHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -159,6 +194,7 @@
 		69B7891227426A2B009D6E38 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				69B7893D274272F4009D6E38 /* NavigationTitleTypes.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -166,6 +202,7 @@
 		69B7891327426A37009D6E38 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				69B7893B274272E2009D6E38 /* TaskList.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -180,6 +217,27 @@
 				69B7891D27426B07009D6E38 /* SplashRouter.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		69B7892C27426FFE009D6E38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				69B7893727427066009D6E38 /* HomeViewController.swift */,
+				69B7892F27427027009D6E38 /* HomePresenter.swift */,
+				69B7893127427032009D6E38 /* HomeInteractor.swift */,
+				69B7893327427040009D6E38 /* HomeEntities.swift */,
+				69B789352742704E009D6E38 /* HomeRouter.swift */,
+				69B7893827427066009D6E38 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		69B78947274277D1009D6E38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69B78943274277C2009D6E38 /* HomeTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		88F0894378B22B7EB58254A4 /* Frameworks */ = {
@@ -268,7 +326,10 @@
 			files = (
 				69B788FF2742595B009D6E38 /* LaunchScreen.storyboard in Resources */,
 				69B788FC2742595B009D6E38 /* Assets.xcassets in Resources */,
+				69B7894B27427959009D6E38 /* CustomNavigationTitleView.xib in Resources */,
 				69B788FA27425959009D6E38 /* Main.storyboard in Resources */,
+				69B78946274277C2009D6E38 /* HomeTableViewCell.xib in Resources */,
+				69B7893A27427066009D6E38 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +385,25 @@
 				69B788F327425959009D6E38 /* AppDelegate.swift in Sources */,
 				69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */,
 				69B7892227426BD7009D6E38 /* BasePresenter.swift in Sources */,
+				69B7893427427040009D6E38 /* HomeEntities.swift in Sources */,
 				69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */,
+				69B789362742704E009D6E38 /* HomeRouter.swift in Sources */,
 				69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */,
 				69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */,
 				69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */,
+				69B78945274277C2009D6E38 /* HomeTableViewCell.swift in Sources */,
+				69B7894A27427959009D6E38 /* CustomNavigationTitleView.swift in Sources */,
 				69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */,
 				69B7892427426BE2009D6E38 /* BaseView.swift in Sources */,
+				69B7893927427066009D6E38 /* HomeViewController.swift in Sources */,
+				69B7893E274272F4009D6E38 /* NavigationTitleTypes.swift in Sources */,
+				69B78942274277A8009D6E38 /* HomeTableViewSource.swift in Sources */,
+				69B7894027427305009D6E38 /* RealmHelper.swift in Sources */,
+				69B7893027427027009D6E38 /* HomePresenter.swift in Sources */,
 				69B7891827426AE0009D6E38 /* SplashPresenter.swift in Sources */,
 				69B7891A27426AEF009D6E38 /* SplashInteractor.swift in Sources */,
+				69B7893C274272E3009D6E38 /* TaskList.swift in Sources */,
+				69B7893227427032009D6E38 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -463,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -484,11 +556,14 @@
 				DEVELOPMENT_TEAM = 7MKH4SW5Z6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoListApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mobilist TodoList";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,11 +588,14 @@
 				DEVELOPMENT_TEAM = 7MKH4SW5Z6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoListApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mobilist TodoList";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

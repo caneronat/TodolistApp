@@ -138,6 +138,8 @@
 		68D1CB71F22E0979DEF1E272D5559E3A /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4CA4ED56EA54AD9B7AC1CB29DC550 /* Debounce.swift */; };
 		69537EEBAEE542798C9630CB8F96DF8D /* NotificationCenter+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B99D80A884E9D9EB85B6EE4A560E0 /* NotificationCenter+Rx.swift */; };
 		69823867F085ECAC3DB2CFFD66CEDAB2 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1C15D643FAC7AC2043F6CE3E8138D3 /* Scan.swift */; };
+		69B7894E27427C9A009D6E38 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7894D27427C9A009D6E38 /* Realm */; };
+		69B7895027427C9A009D6E38 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7894F27427C9A009D6E38 /* RealmSwift */; };
 		6D8CDC66C950346874056F3F45FAB0FC /* NSView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319264E5830FC47E6FCC85F65892428 /* NSView+Rx.swift */; };
 		6EA87C884308C46B4AEA3872D3C6933F /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C4681D9AECC74BDC684C58B73B44C /* Decode.swift */; };
 		70527867C4C4C965053E4283F3778986 /* RxCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF97F15C6F14628B38D007382262321 /* RxCocoa-dummy.m */; };
@@ -553,7 +555,7 @@
 		99288042EEF3CAA68E6EEC613114661C /* RxCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-prefix.pch"; sourceTree = "<group>"; };
 		9AC58E2E59A768D126647AC392BCCD7B /* UIButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Rx.swift"; path = "RxCocoa/iOS/UIButton+Rx.swift"; sourceTree = "<group>"; };
 		9C5B85894F4D7E3C1D3017469130A1CB /* ReplayRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplayRelay.swift; path = RxRelay/ReplayRelay.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E46CBBAB7FB75C27E47882A54F29FE6 /* RxTextViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift; sourceTree = "<group>"; };
 		9E6C6ED2F156B15AFFCBEDCC32D3CB5D /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxRelay/Observable+Bind.swift"; sourceTree = "<group>"; };
 		9ED47121AE274D17115DB25D3D16B5CD /* Infallible+CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+CombineLatest+arity.swift"; path = "RxSwift/Traits/Infallible/Infallible+CombineLatest+arity.swift"; sourceTree = "<group>"; };
@@ -720,6 +722,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B7895027427C9A009D6E38 /* RealmSwift in Frameworks */,
+				69B7894E27427C9A009D6E38 /* Realm in Frameworks */,
 				44E16801F24CB7E4A06CA49E60FC1F83 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -768,7 +772,6 @@
 				FDC70B184042B4C7CCDF0CC38B4259B9 /* UILabelExtension.swift */,
 				68253717824988EE531D98E79E9B2194 /* Support Files */,
 			);
-			name = SPAlert;
 			path = SPAlert;
 			sourceTree = "<group>";
 		};
@@ -959,7 +962,6 @@
 				2CE40B58D6C4F42FC94CBCBF4C537744 /* Zip+Collection.swift */,
 				FDB9C742211FA6CB1C2ECF82EB6625F3 /* Support Files */,
 			);
-			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1118,7 +1120,6 @@
 				34C491B29EAA803760197DCA50747D1B /* WKWebView+Rx.swift */,
 				12BD1AC0AE13D0A4F8AEEB7CA9175824 /* Support Files */,
 			);
-			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -1151,7 +1152,6 @@
 				F61CEBC53DF0FD7CC60E8822766103E1 /* Utils.swift */,
 				715E36B61DD37C3D937A53BAA3FA8190 /* Support Files */,
 			);
-			name = RxRelay;
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
@@ -1299,6 +1299,10 @@
 				3CEA69F2307E2091CCF7E71B77E16595 /* PBXTargetDependency */,
 			);
 			name = "Pods-TodoListApp";
+			packageProductDependencies = (
+				69B7894D27427C9A009D6E38 /* Realm */,
+				69B7894F27427C9A009D6E38 /* RealmSwift */,
+			);
 			productName = Pods_TodoListApp;
 			productReference = C06FAC97E113188D096382E5CF6C5851 /* Pods-TodoListApp */;
 			productType = "com.apple.product-type.framework";
@@ -1357,6 +1361,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				69B7894C27427C9A009D6E38 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = D72B6191AA7B877322D3C7C4720F8397 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2314,6 +2321,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69B7894C27427C9A009D6E38 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69B7894D27427C9A009D6E38 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69B7894C27427C9A009D6E38 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		69B7894F27427C9A009D6E38 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69B7894C27427C9A009D6E38 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
