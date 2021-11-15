@@ -20,6 +20,12 @@
 		698246F427428D4C003D8FEA /* AddTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698246F327428D4C003D8FEA /* AddTaskInteractor.swift */; };
 		698246F627428D56003D8FEA /* AddTaskEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698246F527428D56003D8FEA /* AddTaskEntities.swift */; };
 		698246F827428D64003D8FEA /* AddTaskRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698246F727428D64003D8FEA /* AddTaskRouter.swift */; };
+		698246FC274299D8003D8FEA /* UpdateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698246FA274299D8003D8FEA /* UpdateTaskViewController.swift */; };
+		698246FD274299D8003D8FEA /* UpdateTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698246FB274299D8003D8FEA /* UpdateTaskViewController.xib */; };
+		698246FF274299EB003D8FEA /* UpdateTaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698246FE274299EB003D8FEA /* UpdateTaskPresenter.swift */; };
+		69824701274299F6003D8FEA /* UpdateTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69824700274299F6003D8FEA /* UpdateTaskInteractor.swift */; };
+		6982470327429A00003D8FEA /* UpdateTaskEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982470227429A00003D8FEA /* UpdateTaskEntities.swift */; };
+		6982470527429A0B003D8FEA /* UpdateTaskRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982470427429A0B003D8FEA /* UpdateTaskRouterInput.swift */; };
 		69B788F327425959009D6E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B788F227425959009D6E38 /* AppDelegate.swift */; };
 		69B788FA27425959009D6E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B788F827425959009D6E38 /* Main.storyboard */; };
 		69B788FC2742595B009D6E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B788FB2742595B009D6E38 /* Assets.xcassets */; };
@@ -66,6 +72,12 @@
 		698246F327428D4C003D8FEA /* AddTaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskInteractor.swift; sourceTree = "<group>"; };
 		698246F527428D56003D8FEA /* AddTaskEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskEntities.swift; sourceTree = "<group>"; };
 		698246F727428D64003D8FEA /* AddTaskRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskRouter.swift; sourceTree = "<group>"; };
+		698246FA274299D8003D8FEA /* UpdateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewController.swift; sourceTree = "<group>"; };
+		698246FB274299D8003D8FEA /* UpdateTaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateTaskViewController.xib; sourceTree = "<group>"; };
+		698246FE274299EB003D8FEA /* UpdateTaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskPresenter.swift; sourceTree = "<group>"; };
+		69824700274299F6003D8FEA /* UpdateTaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskInteractor.swift; sourceTree = "<group>"; };
+		6982470227429A00003D8FEA /* UpdateTaskEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskEntities.swift; sourceTree = "<group>"; };
+		6982470427429A0B003D8FEA /* UpdateTaskRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskRouterInput.swift; sourceTree = "<group>"; };
 		69B788EF27425959009D6E38 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B788F227425959009D6E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B788F927425959009D6E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +152,19 @@
 			path = AddTask;
 			sourceTree = "<group>";
 		};
+		698246F927429959003D8FEA /* UpdateTask */ = {
+			isa = PBXGroup;
+			children = (
+				698246FA274299D8003D8FEA /* UpdateTaskViewController.swift */,
+				698246FE274299EB003D8FEA /* UpdateTaskPresenter.swift */,
+				69824700274299F6003D8FEA /* UpdateTaskInteractor.swift */,
+				6982470227429A00003D8FEA /* UpdateTaskEntities.swift */,
+				6982470427429A0B003D8FEA /* UpdateTaskRouterInput.swift */,
+				698246FB274299D8003D8FEA /* UpdateTaskViewController.xib */,
+			);
+			path = UpdateTask;
+			sourceTree = "<group>";
+		};
 		69B788E627425959009D6E38 = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +214,7 @@
 		69B7890C274269F2009D6E38 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				698246F927429959003D8FEA /* UpdateTask */,
 				698246EC27428D1D003D8FEA /* AddTask */,
 				698246DF2742899B003D8FEA /* Detail */,
 				69B7892C27426FFE009D6E38 /* Home */,
@@ -378,6 +404,7 @@
 			files = (
 				69B788FF2742595B009D6E38 /* LaunchScreen.storyboard in Resources */,
 				69B788FC2742595B009D6E38 /* Assets.xcassets in Resources */,
+				698246FD274299D8003D8FEA /* UpdateTaskViewController.xib in Resources */,
 				698246E3274289B9003D8FEA /* DetailViewController.xib in Resources */,
 				69B7894B27427959009D6E38 /* CustomNavigationTitleView.xib in Resources */,
 				69B788FA27425959009D6E38 /* Main.storyboard in Resources */,
@@ -437,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B788F327425959009D6E38 /* AppDelegate.swift in Sources */,
+				6982470527429A0B003D8FEA /* UpdateTaskRouterInput.swift in Sources */,
 				698246E7274289DD003D8FEA /* DetailInteractor.swift in Sources */,
 				69B7892627426BFF009D6E38 /* BaseInteractor.swift in Sources */,
 				698246E2274289B9003D8FEA /* DetailViewController.swift in Sources */,
@@ -445,6 +473,7 @@
 				69B7891E27426B07009D6E38 /* SplashRouter.swift in Sources */,
 				69B789362742704E009D6E38 /* HomeRouter.swift in Sources */,
 				69B7892027426BCB009D6E38 /* BaseRouter.swift in Sources */,
+				698246FC274299D8003D8FEA /* UpdateTaskViewController.swift in Sources */,
 				69B7892827426C48009D6E38 /* InteractorHelper.swift in Sources */,
 				69B7891C27426AFC009D6E38 /* SplashEntities.swift in Sources */,
 				698246F827428D64003D8FEA /* AddTaskRouter.swift in Sources */,
@@ -453,9 +482,12 @@
 				698246EF27428D30003D8FEA /* AddTaskViewController.swift in Sources */,
 				69B7894A27427959009D6E38 /* CustomNavigationTitleView.swift in Sources */,
 				69B7891627426AD2009D6E38 /* SplashViewController.swift in Sources */,
+				6982470327429A00003D8FEA /* UpdateTaskEntities.swift in Sources */,
 				698246F627428D56003D8FEA /* AddTaskEntities.swift in Sources */,
 				698246EB274289F9003D8FEA /* DetailRouter.swift in Sources */,
+				698246FF274299EB003D8FEA /* UpdateTaskPresenter.swift in Sources */,
 				69B7892427426BE2009D6E38 /* BaseView.swift in Sources */,
+				69824701274299F6003D8FEA /* UpdateTaskInteractor.swift in Sources */,
 				69B7893927427066009D6E38 /* HomeViewController.swift in Sources */,
 				69B7893E274272F4009D6E38 /* NavigationTitleTypes.swift in Sources */,
 				69B78942274277A8009D6E38 /* HomeTableViewSource.swift in Sources */,
